@@ -16,10 +16,9 @@ Pasos:
     git clone https://github.com/jjups96/curso-hpcd.git
 ~~~
 
-2. Creamos una carpeta que se llame temp
+2. Creamos una carpeta que se llame temp, puede ser usando interfaz o el siguiente comando
 ~~~
-    docker build -t mcd-hpcd .
-    docker run -it -v $PWD/temp:/tunnel --name covid19 mcd-hpcd
+    mkdir temp
 ~~~
 
 3. Generamos la imagen de un dockerfile
